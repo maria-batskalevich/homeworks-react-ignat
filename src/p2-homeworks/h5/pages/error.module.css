@@ -10,12 +10,6 @@ html {
     color: #fff
 }
 
-html {
-    background: url('https://static.pexels.com/photos/818/sea-sunny-beach-holiday.jpg');
-    background-size: cover;
-    background-position: bottom
-}
-
 .error {
     text-align: center;
     padding: 16px;
@@ -30,13 +24,15 @@ h1 {
     font-size: calc(17vw + 40px);
     opacity: .8;
     letter-spacing: -17px;
+    text-align: center;
 }
 
 p {
     opacity: .8;
     font-size: 20px;
     margin: 8px 0 38px 0;
-    font-weight: bold
+    font-weight: bold;
+    text-align: center;
 }
 
 input,
