@@ -4,16 +4,10 @@ import './error.module.css'
 function Error404() {
     return (
         <div>
-            <h1>404 Error Page #1</h1>
-            <p className="zoom-area"><b>CSS</b> animations to make a cool 404 page. </p>
-            <section className="error-container">
-                <span><span>4</span></span>
-                <span>0</span>
-                <span><span>4</span></span>
-            </section>
-            <div className="link-container">
-                <a target="_blank" href="https://www.silocreativo.com/en/creative-examples-404-error-css/"
-                   className="more-link">Visit the original article</a>
+            <a href="" className="fa fa-arrow-left"></a>
+            <div className="error">
+                <h1>404</h1>
+                <p>We're sorry but it looks like that page doesn't exist anymore.</p>
             </div>
         </div>
     )
