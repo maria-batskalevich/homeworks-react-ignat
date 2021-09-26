@@ -1,4 +1,3 @@
-
 .button {
     margin: 10px;
     width: 60px;
@@ -11,10 +10,9 @@
 .button:focus {
     /*outline: #81b2e1 solid 1px;*/
     background: #0c3657;
-
 }
 
-.button:hover{
+.button:hover {
     background: #0c3657;
 }
 
@@ -24,36 +22,29 @@
 
 .active {
     background: #0c3657;
-
 }
 
 .affair {
     display: flex;
-
 }
 
 .item {
     margin: 10px;
     width: 100px;
-
-
 }
 
 .high {
     color: red;
-
 }
 
 .middle {
     color: orange;
-
 }
 
 .low {
     color: lime;
-
 }
 
-.all{
+.all {
     color: #81b2e1;
 }

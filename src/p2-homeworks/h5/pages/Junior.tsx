@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 function Junior() {
     return (
         <div>
@@ -10,8 +9,6 @@ function Junior() {
             {/*<HW9/>*/}
             {/*<HW10/>*/}
             {/*<HW11/>*/}
-
-
         </div>
     )
 }

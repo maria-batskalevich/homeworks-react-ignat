@@ -8,7 +8,6 @@ type AffairsPropsType = { // need to fix any
     setFilter: (filter: FilterType) => void
     deleteAffairCallback: (_id: number) => void
     filter?: FilterType
-
 }
 
 function Affairs(props: AffairsPropsType) {
@@ -17,7 +16,6 @@ function Affairs(props: AffairsPropsType) {
             key={a._id} // кеи ОБЯЗАТЕЛЬНЫ в 99% - так что лучше их писать всегда при создании компонент в мапе
             affair={a}
             deleteAffairCallback={props.deleteAffairCallback}
-
         />
     ))
 
@@ -43,7 +41,7 @@ function Affairs(props: AffairsPropsType) {
     // const cnMiddle = s.button + '' + (props.filter === 'middle' ? s.active : '')
     // const cnLow = s.button + '' + (props.filter === 'low' ? s.active : '')
     const setClass = (filter: FilterType) => {
-        return s.button + (props.filter === filter ? ' ' + s.active: '')
+        return s.button + (props.filter === filter ? ' ' + s.active : '')
     }
 
     return (
@@ -60,8 +58,6 @@ function Affairs(props: AffairsPropsType) {
             <button onClick={set} className={setClass('high')} value={'high'}>High</button>
             <button onClick={set} className={setClass('middle')} value={'middle'}>Middle</button>
             <button onClick={set} className={setClass('low')} value={'low'}>Low</button>
-
-
         </div>
     )
 }

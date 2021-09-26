@@ -11,8 +11,6 @@ type GreetingContainerPropsType = {
 // function GreetingContainer(props: GreetingPropsType) {
 
 // более современный и удобный для про :)
-
-
 // уровень локальной логики
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback}) => { // деструктуризация пропсов
     const [name, setName] = useState<string>('') // need to fix any

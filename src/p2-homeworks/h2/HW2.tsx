@@ -41,14 +41,11 @@ function HW2() {
         <div>
             <hr/>
             homeworks 2
-
-            {/*should work (должно работать)*/}
             <Affairs
                 data={filteredAffairs}
                 setFilter={setFilter}
                 deleteAffairCallback={deleteAffairCallback}
                 filter={filter}
-
             />
 
             <hr/>

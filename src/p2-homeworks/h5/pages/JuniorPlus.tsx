@@ -7,14 +7,11 @@ import HW4 from '../../h4/HW4'
 function JuniorPlus() {
     return (
         <div>
-
             {/*<HW12/>*/}
             {/*<HW13/>*/}
             {/*<HW14/>*/}
             {/*<HW15/>*/}
             {/*<HW16/>*/}
-
-
         </div>
     )
 }

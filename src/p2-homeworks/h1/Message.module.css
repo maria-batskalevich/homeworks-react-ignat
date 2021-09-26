@@ -13,18 +13,6 @@
 
 }
 
-/*.dialog:after {*/
-/*    content: "";*/
-/*    display: block;*/
-/*    position: absolute;*/
-/*    bottom: -15px;*/
-/*    left: 10px;*/
-/*    width: 0;*/
-/*    border-width: 15px 15px 0;*/
-/*    border-style: solid;*/
-/*    border-color: #f3961c transparent;*/
-/*}*/
-
 .arrow {
     position: absolute;
     width: 0;
@@ -34,7 +22,7 @@
     border-color: #f3961c;
 }
 
-.arrow:after{
+.arrow:after {
     content: "";
     position: absolute;
     border: 0 solid transparent;
@@ -45,8 +33,6 @@
     transform: rotate(145deg);
 
 }
-
-
 
 .avatar {
     margin: 40px 10px 0;
@@ -61,11 +47,9 @@
     font-weight: bold;
     text-align: right;
     margin-top: 10px;
-
 }
 
 .name {
     color: #282c34;
     font-weight: bold
 }
-

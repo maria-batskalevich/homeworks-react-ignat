@@ -8,7 +8,6 @@
     color: red;
     height: 21px;
     margin-left: 10px;
-
 }
 
 .input {
@@ -39,18 +38,15 @@
 
 }
 
-.button:focus {
-    /*outline: #7f7f7f solid 1px;*/
-}
-
-.button:active{
+.button:active {
     background: #2196F3;
 }
-.button:disabled{
-    color: rgba(255,255,255,.3);
+
+.button:disabled {
+    color: rgba(255, 255, 255, .3);
 }
 
-.count{
+.count {
     margin: 10px;
 }
 

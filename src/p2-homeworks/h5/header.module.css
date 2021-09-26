@@ -1,18 +1,18 @@
-.menu{
+.menu {
     display: flex;
 }
 
-.link{
+.link {
     text-decoration: none;
     margin: 10px;
     color: #0c3657;
 }
 
-.active{
+.active {
     font-weight: bold;
 }
 
-.buttonMenu{
+.buttonMenu {
     width: 33px;
     height: 33px;
     border-radius: 10px;
@@ -21,14 +21,14 @@
 
 }
 
-.menu{
+.menu {
     display: flex;
     transition-duration: 500ms;
     transform: translate(-230px);
 }
 
 
-.menu:hover{
+.menu:hover {
     transition-duration: 500ms;
     transform: translate(0);
 }
