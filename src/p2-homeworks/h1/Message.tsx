@@ -16,6 +16,7 @@ export const Message = (props: PropsType) => {
                 <div className={s.name}>{props.name}</div>
                 <div className={s.message}>{props.message}</div>
                 <div className={s.time}>{props.time}</div>
+                <div className={s.arrow}></div>
             </div>
 
 

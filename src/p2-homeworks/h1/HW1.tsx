@@ -3,7 +3,7 @@ import Message from "./Message";
 import './Message.module.css'
 
 const messageData = {
-    avatar: 'https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg',
+    avatar: 'https://i.postimg.cc/ydtzBx4p/B67-A3875-Web.jpg',
     name: 'Maria',
     message: 'Hi! What is your name?',
     time: '23:00',
