@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/homeworks-react-ignat/static/css/main.6b51048b.chunk.css",
+    "main.css": "/homeworks-react-ignat/static/css/main.e56ee972.chunk.css",
     "main.js": "/homeworks-react-ignat/static/js/main.56eeb960.chunk.js",
     "main.js.map": "/homeworks-react-ignat/static/js/main.56eeb960.chunk.js.map",
     "runtime-main.js": "/homeworks-react-ignat/static/js/runtime-main.c5b6f656.js",
@@ -8,13 +8,13 @@
     "static/js/2.be89ab73.chunk.js": "/homeworks-react-ignat/static/js/2.be89ab73.chunk.js",
     "static/js/2.be89ab73.chunk.js.map": "/homeworks-react-ignat/static/js/2.be89ab73.chunk.js.map",
     "index.html": "/homeworks-react-ignat/index.html",
-    "static/css/main.6b51048b.chunk.css.map": "/homeworks-react-ignat/static/css/main.6b51048b.chunk.css.map",
+    "static/css/main.e56ee972.chunk.css.map": "/homeworks-react-ignat/static/css/main.e56ee972.chunk.css.map",
     "static/js/2.be89ab73.chunk.js.LICENSE.txt": "/homeworks-react-ignat/static/js/2.be89ab73.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c5b6f656.js",
     "static/js/2.be89ab73.chunk.js",
-    "static/css/main.6b51048b.chunk.css",
+    "static/css/main.e56ee972.chunk.css",
     "static/js/main.56eeb960.chunk.js"
   ]
 }
