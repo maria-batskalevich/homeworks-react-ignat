@@ -1,5 +1,8 @@
 import React, {useState} from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
+import {brotliCompress} from "zlib";
+
+const get2digitsString = (num: number) => num < 10 ? '0' + num : num
 
 function Clock() {
     const [timerId, setTimerId] = useState<number>(0)
@@ -7,25 +10,26 @@ function Clock() {
     const [show, setShow] = useState<boolean>(false)
 
     const stop = () => {
-        // stop
+        clearInterval(timerId)
     }
     const start = () => {
         stop()
         const id: number = window.setInterval(() => {
-            // setDate
+            setDate(new Date())
         }, 1000)
         setTimerId(id)
+
     }
 
     const onMouseEnter = () => {
-        // show
+        setShow(true)
     }
     const onMouseLeave = () => {
-        // close
+        setShow(false)
     }
 
-    const stringTime = 'Time' // fix with date
-    const stringDate = 'Date' // fix with date
+    const stringTime = date?.toLocaleTimeString() || <br/>
+    const stringDate = date?.toLocaleDateString() || <br/>
 
     return (
         <div>
