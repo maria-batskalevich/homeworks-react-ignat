@@ -1,8 +1,5 @@
 import React, {useState} from 'react'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
-import {brotliCompress} from "zlib";
-
-const get2digitsString = (num: number) => num < 10 ? '0' + num : num
 
 function Clock() {
     const [timerId, setTimerId] = useState<number>(0)
@@ -39,13 +36,13 @@ function Clock() {
             >
                 {stringTime}
             </div>
-
-            {show && (
+            {show ? (
                 <div>
                     {stringDate}
                 </div>
+            ) : (
+                <br/>
             )}
-
             <SuperButton onClick={start}>start</SuperButton>
             <SuperButton onClick={stop}>stop</SuperButton>
 
