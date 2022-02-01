@@ -8,7 +8,6 @@ type SuperDoubleRangePropsType = {
     value?: [number, number]
     max:number
     min:number
-    // min, max, step, disable, ...
 }
 
 const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
