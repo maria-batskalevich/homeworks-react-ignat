@@ -13,7 +13,6 @@ type SuperDoubleRangePropsType = {
 const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
     {
         onChangeRange, value, min, onDoubleChangeRange, max
-        // min, max, step, disable, ...
     }
 ) => {
     const onChangeCallback = (e: ChangeEvent<HTMLInputElement>) => {
