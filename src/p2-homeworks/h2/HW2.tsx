@@ -1,8 +1,6 @@
 import React, {useState} from 'react'
 import Affairs from './Affairs'
-import s from './Affairs.module.css'
 
-// types
 export type AffairPriorityType = 'high' | 'middle' | 'low'
 export type AffairType = {
     _id: number,
@@ -39,7 +37,7 @@ function HW2() {
 
     return (
         <div>
-            <hr/>
+
             homeworks 2
             <Affairs
                 data={filteredAffairs}

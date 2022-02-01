@@ -11,13 +11,13 @@
 }
 
 .red-text {
-    color: aqua;
+    color: #722a2a;
 }
 
-.some {
-    background: lightgreen;
+.orange {
+    background: #f3a44e;
 }
 
-.some-text {
-    color: darkslateblue;
+.orange-text {
+    color: #b76e05;
 }

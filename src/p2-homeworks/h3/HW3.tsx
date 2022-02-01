@@ -22,10 +22,9 @@ function HW3() {
 
     return (
         <div>
-            <hr/>
-            {/*homeworks 3*/}
-            {/*<GreetingContainer users={users} addUserCallback={addUserCallback}/>*/}
-            {/*<hr/>*/}
+            homeworks 3
+            <GreetingContainer users={users} addUserCallback={addUserCallback}/>
+
             {/*/!*для личного творчества, могу проверить*!/*/}
             {/*/!*<AlternativeGreeting/>*!/*/}
             {/*<hr/>*/}
