@@ -6,7 +6,6 @@ type themeStateType = {
     theme: themeType
 }
 
-
 const initState: themeStateType = {
     theme: 'orange'
 };
@@ -26,4 +25,4 @@ export const themeReducer = (state = initState, action: ThemeActionType): themeS
     }
 };
 
-export const changeThemeC = (newTheme: themeType): ThemeActionType => ({type: CHANGE_THEME, newTheme});
+export const changeThemeAC = (newTheme: themeType): ThemeActionType => ({type: CHANGE_THEME, newTheme});
