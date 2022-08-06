@@ -7,8 +7,10 @@ export const HW13 = () => {
 
     return (
         <div className={style.hw13}>
+            <hr/>
             homeworks 13
             <Request />
+            <hr/>
         </div>
     );
 };
