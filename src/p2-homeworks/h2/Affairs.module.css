@@ -8,7 +8,6 @@
 }
 
 .button:focus {
-    /*outline: #81b2e1 solid 1px;*/
     background: #0c3657;
 }
 
