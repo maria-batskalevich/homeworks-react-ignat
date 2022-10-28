@@ -1,11 +1,11 @@
 import React from "react";
-import s from "./HW12.module.css";
+import style from "./HW12.module.scss";
 import SuperRadio from "../h7/common/c6-SuperRadio/SuperRadio";
 import {useDispatch, useSelector} from "react-redux";
 import {changeThemeAC, themeType} from "./bll/themeReducer";
 import {AppStoreType} from "../h10/bll/store";
 
-const themes = ['dark', 'red', 'orange'];
+const themes = ['dark', 'white', 'orange'];
 
 function HW12() {
 
@@ -16,21 +16,16 @@ function HW12() {
     }
 
     return (
-        <div className={s[theme]}>
-            <hr/>
-            <span className={s[theme + '-text']}>
-                homeworks 12
+        <div className={style[theme]}>
+            <h3>Homework 12</h3>
+            <span className={style[theme + '-text']}>
             </span>
-
-            {/*should work (должно работать)*/}
-            {/*SuperSelect or SuperRadio*/}
             <SuperRadio
                 name={'radio'}
                 options={themes}
                 value={theme}
                 onChangeOption={onChangeOption}
             />
-            <hr/>
         </div>
     );
 }

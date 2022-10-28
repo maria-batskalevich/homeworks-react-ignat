@@ -1,19 +1,12 @@
 import React from 'react'
-import Clock from './Clock'
+import s from "../h1/wrapper.module.scss";
+import {Clock} from "./Clock";
 
 function HW9() {
     return (
-        <div>
-            <hr/>
-            homeworks 9
-
-            {/*should work (должно работать)*/}
+        <div className={s.wrapper}>
+            <h3>Homework 9. Current time.</h3>
             <Clock/>
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeClock/>*/}
-            <hr/>
         </div>
     )
 }

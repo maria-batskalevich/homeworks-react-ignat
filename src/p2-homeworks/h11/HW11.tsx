@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import SuperRange from './common/c7-SuperRange/SuperRange'
 import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
+import s from "../h1/wrapper.module.scss";
 
 function HW11() {
     const [value1, setValue1] = useState(0)
@@ -13,10 +14,8 @@ function HW11() {
     }
 
     return (
-        <div>
-            homeworks 11
-
-            {/*should work (должно работать)*/}
+        <div className={s.wrapper}>
+            <h3>Homework 11</h3>
             <div>
                 <span>{value1}</span>
                 <SuperRange
@@ -25,7 +24,6 @@ function HW11() {
                     // сделать так чтоб value1 изменялось
                 />
             </div>
-
             <div>
                 <span>{value1}</span>
                 <SuperDoubleRange
@@ -36,12 +34,6 @@ function HW11() {
                 />
                 <span>{value2}</span>
             </div>
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperRange/>*/}
-            {/*<AlternativeSuperDoubleRange/>*/}
-            <hr/>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './error.module.css'
+import s from './error.module.scss'
 
 function Error404() {
     return (

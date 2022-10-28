@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import GreetingContainer from './GreetingContainer'
 import {v1} from "uuid";
+import s from "../h1/wrapper.module.scss";
 
 // types
 export type UserType = {
@@ -21,13 +22,9 @@ function HW3() {
     }
 
     return (
-        <div>
-            homeworks 3
+        <div className={s.wrapper}>
+            <h3>Homework 3</h3>
             <GreetingContainer users={users} addUserCallback={addUserCallback}/>
-
-            {/*/!*для личного творчества, могу проверить*!/*/}
-            {/*/!*<AlternativeGreeting/>*!/*/}
-            {/*<hr/>*/}
         </div>
     )
 }

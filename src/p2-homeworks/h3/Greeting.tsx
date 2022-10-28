@@ -1,5 +1,5 @@
 import React, {ChangeEvent, KeyboardEvent} from 'react'
-import s from './Greeting.module.css'
+import s from './Greeting.module.scss'
 import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 type GreetingPropsType = {

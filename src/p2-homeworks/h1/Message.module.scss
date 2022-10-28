@@ -35,10 +35,11 @@
 }
 
 .avatar {
-    margin: 40px 10px 0;
-    width: 5%;
-    height: 5%;
-    border-radius: 200px;
+width: 80px;
+    height: 80px;
+    margin-right: 5px;
+    border: 2px solid #ddaf07;
+    border-radius: 50%;
 }
 
 .time {
@@ -47,6 +48,7 @@
     font-weight: bold;
     text-align: right;
     margin-top: 10px;
+
 }
 
 .name {

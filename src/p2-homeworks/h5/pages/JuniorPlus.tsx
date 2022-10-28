@@ -6,6 +6,7 @@ import {HW13} from "../../h13/HW13";
 function JuniorPlus() {
     return (
         <div>
+            <h2>JUNIOR+ PAGE</h2>
             <HW12/>
             <HW13/>
             {/*<HW14/>*/}
